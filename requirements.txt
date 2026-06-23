@@ -1,0 +1,12 @@
+flask
+flask-cors
+torch
+transformers
+tokenizers
+safetensors
+datasets
+scikit-learn
+numpy
+accelerate
+sentencepiece
+peft

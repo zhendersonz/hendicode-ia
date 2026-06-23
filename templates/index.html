@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HendiCode AI</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" role="complementary" aria-label="Barra lateral">
+
+        <div class="sidebar-header">
+
+            <div class="logo">
+                <div class="logo-circle" aria-hidden="true">H</div>
+                <div class="logo-text">
+                    <h2>HendiCode AI</h2>
+                    <span>Desktop Assistant</span>
+                </div>
+            </div>
+
+            <button class="new-chat-btn" aria-label="Iniciar nova conversa">
+                <i class="fas fa-plus" aria-hidden="true"></i> Nova conversa
+            </button>
+
+        </div>
+
+        <nav class="history" role="navigation" aria-label="Histórico de conversas">
+
+            <div class="history-title">Conversas recentes</div>
+
+            <div class="conversation active" role="button" tabindex="0" aria-current="page">
+                Chat Atual
+            </div>
+
+        </nav>
+
+        <div class="sidebar-middle">
+
+            <div class="token-counter" id="token-counter" aria-live="polite">
+                <i class="fas fa-coins" aria-hidden="true"></i>
+                <span id="token-count">0</span> tokens
+            </div>
+
+        </div>
+
+        <div class="sidebar-footer">
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+                <i class="fas fa-moon" id="themeIcon" aria-hidden="true"></i>
+            </button>
+
+            <div class="model-status" role="status" aria-label="Status do modelo">
+                <span class="status-badge online" id="modelStatus">
+                    <i class="fas fa-circle" aria-hidden="true"></i> <span id="modelStatusText">Online</span>
+                </span>
+            </div>
+
+            <div class="profile">
+                <div class="profile-avatar" aria-hidden="true">H</div>
+                <div class="profile-info">
+                    <strong>Henderson</strong>
+                    <span>Usuário</span>
+                </div>
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- Chat -->
+    <main class="chat" role="main">
+
+        <header class="chat-header">
+
+            <h1>HendiCode AI</h1>
+
+            <div class="status" role="status" aria-label="Status da conexão">
+                <i class="fas fa-circle" aria-hidden="true"></i> Online
+            </div>
+
+        </header>
+
+        <div class="messages" id="messages" role="log" aria-live="polite" aria-label="Mensagens do chat">
+
+            <!-- Welcome Message -->
+            <div class="message ai" role="complementary">
+
+                <div class="avatar" aria-hidden="true">AI</div>
+
+                <div class="bubble">
+
+                    <p><strong>👋 Olá! Eu sou o HendiCode AI, seu assistente de código!</strong></p>
+
+                    <p>Comandos disponíveis:</p>
+
+                    <ul>
+                        <li><code>/help</code> — Lista todos os comandos disponíveis</li>
+                        <li><code>!cmd &lt;comando&gt;</code> — Executa um comando no terminal</li>
+                        <li><code>read:&lt;caminho&gt;</code> — Lê o conteúdo de um arquivo</li>
+                    </ul>
+
+                    <p>Como posso ajudar você hoje?</p>
+
+                    <div class="feedback" role="group" aria-label="Avalie esta resposta">
+                        <button class="feedback-btn up" aria-label="Marcar como útil">
+                            <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                        </button>
+                        <button class="feedback-btn down" aria-label="Marcar como não útil">
+                            <i class="fas fa-thumbs-down" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="typing" id="typing" role="status" aria-live="polite">
+            <i class="fas fa-ellipsis-h" aria-hidden="true"></i> Pensando...
+        </div>
+
+        <div class="input-container">
+
+            <textarea
+                    id="prompt"
+                    placeholder="Envie uma mensagem..."
+                    rows="1"
+                    aria-label="Digite sua mensagem"
+                    role="textbox"></textarea>
+
+            <button id="sendButton" aria-label="Enviar mensagem">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<template id="copy-button-template">
+    <button class="copy-btn" aria-label="Copiar código" title="Copiar código">
+        <i class="fas fa-copy" aria-hidden="true"></i>
+    </button>
+</template>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

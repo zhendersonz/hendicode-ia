@@ -1,0 +1,50 @@
+{"prompt": "Crie uma função em Python que calcule o fatorial de um número usando recursão", "category": "python", "language": "python", "difficulty": "easy"}
+{"prompt": "Implemente uma classe Python que represente uma Conta Bancária com métodos de depósito, saque e extrato", "category": "python", "language": "python", "difficulty": "medium"}
+{"prompt": "Escreva um decorator em Python que meça o tempo de execução de uma função", "category": "python", "language": "python", "difficulty": "medium"}
+{"prompt": "Crie um generator em Python que produza a sequência de Fibonacci infinitamente", "category": "python", "language": "python", "difficulty": "medium"}
+{"prompt": "Implemente uma função assíncrona em Python que faça requisições HTTP concorrentes com asyncio e aiohttp", "category": "python", "language": "python", "difficulty": "hard"}
+{"prompt": "Crie uma função lambda em Python que ordene uma lista de dicionários por uma chave específica", "category": "python", "language": "python", "difficulty": "easy"}
+{"prompt": "Implemente um context manager em Python usando a classe com __enter__ e __exit__ para gerenciar conexões de arquivos", "category": "python", "language": "python", "difficulty": "medium"}
+{"prompt": "Escreva um script Python que use multiprocessing para processar uma lista de URLs em paralelo", "category": "python", "language": "python", "difficulty": "hard"}
+{"prompt": "Crie uma função que implemente o padrão Strategy em Python usando classes abstratas", "category": "python", "language": "python", "difficulty": "hard"}
+{"prompt": "Implemente uma função em Python que encontre todos os números primos até N usando o Crivo de Eratóstenes", "category": "python", "language": "python", "difficulty": "medium"}
+{"prompt": "Implemente um componente React que exiba uma lista de tarefas com funcionalidade de adicionar e remover itens", "category": "javascript", "language": "javascript", "difficulty": "medium"}
+{"prompt": "Crie uma função debounce em JavaScript que limite a taxa de chamadas de um callback", "category": "javascript", "language": "javascript", "difficulty": "medium"}
+{"prompt": "Implemente uma Promise em JavaScript que simule o carregamento de dados com atraso controlado", "category": "javascript", "language": "javascript", "difficulty": "easy"}
+{"prompt": "Escreva uma função closure em JavaScript que implemente um contador privado com incremento e reset", "category": "javascript", "language": "javascript", "difficulty": "easy"}
+{"prompt": "Crie um hook personalizado useLocalStorage em React que sincronize estado com localStorage", "category": "typescript", "language": "typescript", "difficulty": "medium"}
+{"prompt": "Implemente uma classe em Java que demonstre herança múltipla usando interfaces (veículo elétrico e veículo a combustão)", "category": "java", "language": "java", "difficulty": "medium"}
+{"prompt": "Crie uma thread em Java que calcule números primos em paralelo usando Runnable e ExecutorService", "category": "java", "language": "java", "difficulty": "hard"}
+{"prompt": "Implemente um método genérico em Java que encontre o maior elemento em um array de qualquer tipo Comparable", "category": "java", "language": "java", "difficulty": "medium"}
+{"prompt": "Escreva uma interface funcional em Java com lambda expression para filtrar uma lista de objetos", "category": "java", "language": "java", "difficulty": "medium"}
+{"prompt": "Implemente um sistema de herança em Java com classes abstratas para formas geométricas (círculo, retângulo, triângulo)", "category": "java", "language": "java", "difficulty": "easy"}
+{"prompt": "Escreva uma query SQL com JOIN entre tabelas de pedidos, clientes e itens para calcular o total gasto por cliente", "category": "sql", "language": "sql", "difficulty": "medium"}
+{"prompt": "Crie uma query SQL com CTE recursiva para exibir a hierarquia de categorias de produtos", "category": "sql", "language": "sql", "difficulty": "hard"}
+{"prompt": "Implemente uma window function SQL para rankear funcionários por salário dentro de cada departamento", "category": "sql", "language": "sql", "difficulty": "hard"}
+{"prompt": "Escreva uma subquery SQL correlacionada para encontrar clientes que fizeram mais de 5 pedidos no último mês", "category": "sql", "language": "sql", "difficulty": "medium"}
+{"prompt": "Crie uma query SQL com FULL OUTER JOIN para comparar registros entre duas tabelas de vendas de anos diferentes", "category": "sql", "language": "sql", "difficulty": "medium"}
+{"prompt": "Implemente o algoritmo QuickSort em Python com particionamento de Lomuto", "category": "algorithms", "language": "python", "difficulty": "medium"}
+{"prompt": "Crie uma função de busca binária em Python que encontre a posição de inserção em array ordenado", "category": "algorithms", "language": "python", "difficulty": "easy"}
+{"prompt": "Implemente o algoritmo de Dijkstra para encontrar o caminho mais curto em um grafo ponderado", "category": "algorithms", "language": "python", "difficulty": "hard"}
+{"prompt": "Escreva uma função recursiva em Python para resolver o problema das Torres de Hanói", "category": "algorithms", "language": "python", "difficulty": "medium"}
+{"prompt": "Implemente a programação dinâmica para o problema da mochila (knapsack) com capacidade limitada", "category": "algorithms", "language": "python", "difficulty": "hard"}
+{"prompt": "Implemente uma lista encadeada simples em Python com métodos de inserção, remoção e busca", "category": "data-structures", "language": "python", "difficulty": "medium"}
+{"prompt": "Crie uma pilha (stack) em Python usando lista e implemente os métodos push, pop, peek e is_empty", "category": "data-structures", "language": "python", "difficulty": "easy"}
+{"prompt": "Implemente uma fila (queue) circular em Python com capacidade fixa", "category": "data-structures", "language": "python", "difficulty": "medium"}
+{"prompt": "Crie uma árvore binária de busca em Python com métodos de inserção, busca e travessia em ordem", "category": "data-structures", "language": "python", "difficulty": "hard"}
+{"prompt": "Implemente uma tabela hash em Python com tratamento de colisões por encadeamento", "category": "data-structures", "language": "python", "difficulty": "hard"}
+{"prompt": "Crie uma API REST com Flask que implemente CRUD de produtos com persistência em SQLite", "category": "web-api", "language": "python", "difficulty": "medium"}
+{"prompt": "Implemente uma API REST com Express.js que gerencie autenticação JWT com middleware de autorização", "category": "web-api", "language": "javascript", "difficulty": "hard"}
+{"prompt": "Crie um Dockerfile multi-estágio para uma aplicação Node.js com otimização de tamanho", "category": "web-api", "language": "dockerfile", "difficulty": "medium"}
+{"prompt": "Implemente um middleware Express.js de rate limiting com contagem de requisições por IP", "category": "web-api", "language": "javascript", "difficulty": "hard"}
+{"prompt": "Crie uma API RESTful com Flask que implemente versionamento de endpoints e documentação automática com Swagger", "category": "web-api", "language": "python", "difficulty": "hard"}
+{"prompt": "Escreva os comandos Git para rebase interativo de 3 commits em uma branch de feature", "category": "git-devops", "language": "bash", "difficulty": "medium"}
+{"prompt": "Crie um script bash que faça backup automático de um diretório com compressão e rotação de 7 dias", "category": "git-devops", "language": "bash", "difficulty": "medium"}
+{"prompt": "Implemente um pipeline CI/CD no GitHub Actions com etapas de lint, teste e deploy para AWS", "category": "git-devops", "language": "yaml", "difficulty": "hard"}
+{"prompt": "Escreva um Dockerfile para uma aplicação Python com dependências e entrypoint configurado", "category": "git-devops", "language": "dockerfile", "difficulty": "easy"}
+{"prompt": "Crie um script bash que monitore logs do servidor e dispare alerta quando encontrar padrões de erro", "category": "git-devops", "language": "bash", "difficulty": "hard"}
+{"prompt": "Implemente um sistema de encapsulamento em Java com getters/setters e validação de dados na classe Pessoa", "category": "poo", "language": "java", "difficulty": "easy"}
+{"prompt": "Crie um exemplo de polimorfismo em Python onde diferentes classes implementam o mesmo método som", "category": "poo", "language": "python", "difficulty": "medium"}
+{"prompt": "Implemente abstração em Java com classe abstrata Animal e métodos abstratos emitirSom e mover", "category": "poo", "language": "java", "difficulty": "easy"}
+{"prompt": "Crie uma função em JavaScript que valide se uma string é um palíndromo ignorando espaços e pontuação", "category": "logic", "language": "javascript", "difficulty": "easy"}
+{"prompt": "Implemente o FizzBuzz clássico em Python com entrada personalizada para os múltiplos", "category": "logic", "language": "python", "difficulty": "easy"}
